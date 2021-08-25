@@ -1,0 +1,35 @@
+baseurl = "tourbour.github.io" # адрес сайта либо ip адрес
+
+title = "Барахолка отбитого админа" # Название сайта сайта
+
+languageCode = "ru-ru" # язык
+
+theme = "mainroad" # тема оформления
+
+[params]
+
+    sidebartitle = "Барахолка отбитого админа" # дополнительный заголовок сайта, используемый темой оформления
+
+    sidebartagline = "рассуждения на околоинтересные темы"
+
+    sidebarphoto = "/img/logo.png"  # изображение, логотип или фото
+
+[[menu.main]] # будет отображаться в главном меню 
+
+    name = "Шляпотрония" 
+
+    url = "/content/hattern.md"
+
+[[menu.social]]
+
+    pre = "<i class='fa fa-vk'></i>"
+
+    url = "https://vk.com"
+
+    identifier = "vkontakte"
+
+[[menu.footer]] # будет отображаться в подвале страницы
+
+    name = "Шляпотрония" 
+
+    url = "/content/hattern.md"
